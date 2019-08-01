@@ -1,4 +1,4 @@
-# wtf-gulp-starter
+# simple text editor
 
 `npm install -g gulp-cli`
 

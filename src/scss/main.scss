@@ -1,12 +1,13 @@
 @import "_normalize";
 @import "_variables";
 
-
 html {
   box-sizing: border-box;
 }
 
-*, *:before, *:after {
+*,
+*:before,
+*:after {
   box-sizing: inherit;
 }
 
@@ -14,50 +15,58 @@ body {
   color: $dark;
   background: $beige;
 }
-.cont{
+.cont {
   width: 90%;
   height: 100%;
   margin: 0 5% 0 5%;
 
-  &__logo{
-// width: 100%;
-margin: 30px 0 30px 30px;
+  &__logo {
+    // width: 100%;
+    margin: 30px 0 30px 30px;
   }
-  &__h1{
+  &__h1 {
     font-size: 24px;
     text-align: center;
   }
-  &__text{
+  &__text {
     max-width: 450px;
     margin: 0 auto 0 auto;
-  
   }
-  &__text--edytor{
+  &__text--edytor {
     display: flex;
     flex-direction: column;
-    
   }
 }
-.poleTextGr{
+.poleText{
+  margin: 0 0 10px 0;
+}
+.poleTextGr {
   border-radius: 10px;
 }
-.buttonPos{
+.buttonPos {
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
 }
-.load{
-@include buttons;
-background-color: $load;
-&:hover{
-  background-color: $loadHover;
-  color: $white;
+.load {
+  @include buttons;
+  background-color: $load;
+  &:hover {
+    background-color: $loadHover;
+    color: $white;
+  }
 }
+.clear {
+  @include clearButton;
+  background-color: $clearButton;
+  &:hover::before {
+    content: "ARE YOU SURE ";
+  }
 }
-.save{
+.save {
   @include buttons;
   background-color: $save;
-  &:hover{
+  &:hover {
     background-color: $saveHover;
     color: $white;
   }
