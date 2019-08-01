@@ -1,9 +1,27 @@
-# simple text editor
+# simple text editor with memory
 
-`npm install -g gulp-cli`
 
-`npm install`
+This simple text editor uses:
+- html, 
+- css, 
+- js.
+    and auxiliary tools such as:
+    - gulp
+    - sass
+    - git
+    - webpack
+    - node.js
+    - npm
 
-`gulp`
 
-To publish your page using github pages use `npm run deploy`
+The use of buttons to assign, download and delete data typed on the screen to Local Storage on the user's computer is assigned using js.
+
+screenshot[simple editor screenshot](https://github.com/PawelRuszkiewicz/tawm/blob/master/src/assets/img/se.png)
+
+
+** Try the editor and have fun. **
+ link[you can try it here:](https://pawelruszkiewicz.github.io/tawm/) 
+
+
+ 
+
