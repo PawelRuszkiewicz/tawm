@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>Site title</title>
+  <meta name="description" content="simply web text editor with memory" />
+
+  <link rel="stylesheet" href="css/main.css" />
+</head>
+
+<body>
+  <main class="cont">
+    <div class="cont__logo">
+      <img src="../assets/img/znakwodny.png" alt="logo">
+    </div>
+    <h1 class="cont__h1">Simple text editor </h1>
+    <!-- contener for textarea & inputs -->
+    <div class="cont__text">
+      <form class="cont__text--edytor">
+        <label class="poleText" for="poleText">Insert text,  after reload the website, you can load it  😀 👍</label>
+        <textarea class="poleTextGr" id="poleText" rows="15" cols="50" placeholder="   lorem ipsum dolor...."></textarea>
+        <div class="buttonPos">
+            <button type="button" class="clear clear--js">clean editor memory</button>
+          <button type="button" class="save save--js" value="jest save">save</button>
+          <button type="button" class="load load--js">load</button>
+         
+        </div>
+      </form>
+
+    </div>
+
+  </main>
+  <script src="js/main.js"></script>
+</body>
+
+</html>
