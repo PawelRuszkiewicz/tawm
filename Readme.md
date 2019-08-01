@@ -25,5 +25,5 @@ The use of buttons to assign, download and delete data typed on the screen to Lo
 [you can try it here](https://pawelruszkiewicz.github.io/tawm/) 
 
 
- 
-
+ You can use this to secure typing into more complex web forms. 🤔
+Of course, after correctly sending the form, it will be nice to clean the user LocalStorage. 😁

@@ -10,7 +10,8 @@ saveButtons.addEventListener('click', (e) => {
 })
 
 loadButtons.addEventListener('click', (e) => {
-  if (localStorage.getItem('textArea')) { textIns.value = localStorage.getItem('textArea'); }
+  if (localStorage.getItem('textArea')) 
+  { textIns.value = localStorage.getItem('textArea'); }
 })
 
 clearB.addEventListener('click', () => {
