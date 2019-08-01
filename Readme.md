@@ -17,12 +17,12 @@ This simple text editor uses:
 The use of buttons to assign, download and delete data typed on the screen to Local Storage on the user's computer is assigned using js.
 
 
-[](https://github.com/PawelRuszkiewicz/tawm/se.png)
+[screenshot](https://github.com/PawelRuszkiewicz/tawm/blob/master/se.png)
 
 
 ** Try the editor and have fun. **
 
-[you can try it here](https://github.com/PawelRuszkiewicz/tawm/blob/master/se.png) 
+[you can try it here](https://pawelruszkiewicz.github.io/tawm/) 
 
 
  
